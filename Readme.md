@@ -15,6 +15,7 @@ Works on kali/ubuntu not on windows ( compiles on windows but brip does not run)
 1) Extract the zip
 2) Apply patch
 3) Run ./configure
+
 Additional packages needed to compile x3270 are:
 libx11-dev
 libxt-dev
