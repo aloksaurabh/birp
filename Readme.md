@@ -9,6 +9,24 @@ BIRP is a tool that will assist in the security assessment of mainframe applicat
 
 In particular, BIRP provides two capabilities for the aspiring TN3270 hacker. The first is that it shows all the data returned by the application in the screen. This includes hidden fields. The second is that it allows fields marked as "protected" aka "non modifiable" to be modified. Depending on how the application has been developed, this can allow application functionality to be modified.
 
+Installing
+-------
+Works on kali/ubuntu not on windows ( compiles on windows but brip does not run)
+1) Extract the zip
+2) Apply patch
+3) Run ./configure
+Additional packages needed to compile x3270 are:
+libx11-dev
+libxt-dev
+libxmu-dev
+libxaw7-dev
+xfonts-100dpi (must log out and log back in again after installing)
+4) Make or Make install
+5) Give executable path in pywrapper
+
+If on windows
+use vs to compile
+
 Running
 -------
 
