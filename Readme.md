@@ -22,6 +22,7 @@ libxt-dev
 libxmu-dev
 libxaw7-dev
 xfonts-100dpi (must log out and log back in again after installing)
+
 4) Make or Make install
 5) Give executable path in pywrapper
 
